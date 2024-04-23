@@ -1,0 +1,29 @@
+                                 INSTALACION
+
+1-) Instalar typeScript desde -> https://www.typescriptlang.org/download o tambien -> https://www.npmjs.com/package/typescript 
+    Se Instala con -> npm install -D typescript
+    De forma global -> npm install -g typescript
+
+2-) Para ver si esta instalado -> npx tsc
+
+
+                                    Iniciar un proyecto
+
+para inciar el proyecto -> npx tsc --init
+
+                                    CONFIGURACION
+
+3-) en el archivo tsconfig.json
+
+3.1) En el Apartado Modules
+3.2 Descomentar -> "rootDir" , para agregar la ruta en donde se va a guardar los archivos ".ts" del proyecto
+3.3 En el apartado /* Emit */
+3.3.1 Descomentar -> "outDir": "./", Y agregar el nombre de carpeta en donde se van a compilar los archivos. ejem-> dist
+
+                                INICIAR UN PROYECTO
+
+3-) Para iniciar un proyecto con TypeScript -> npx tsc --init
+
+4-) Para compilar el typeScript -> npx tsc "nonmbre.ts"
+
+5-) Para ejecutar los Script TypeScrip -> node "archivo.ts"
