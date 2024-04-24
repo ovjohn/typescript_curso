@@ -1,4 +1,6 @@
-                                 INSTALACION
+Quede en el min 9 video video 4 clase 3                                 
+
+                        INSTALACION
 
 1-) Instalar typeScript desde -> https://www.typescriptlang.org/download o tambien -> https://www.npmjs.com/package/typescript 
     Se Instala con -> npm install -D typescript
@@ -27,3 +29,6 @@ para inciar el proyecto -> npx tsc --init
 4-) Para compilar el typeScript -> npx tsc "nonmbre.ts"
 
 5-) Para ejecutar los Script TypeScrip -> node "archivo.ts"
+
+
+
